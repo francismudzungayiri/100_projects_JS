@@ -9,9 +9,9 @@ let today = new Date();
 btn.addEventListener('click',()=>{
     
     const bd = new Date(birth_date.value)
-    today_year = today.getFullYear();
-    birthYear = bd.getFullYear();
-    console.log(today_year, birthYear)
+    let today_year = today.getFullYear();
+    let birthYear = bd.getFullYear();
+    
 
     age = Number(today_year) - Number(birthYear);
     years_old.textContent = age

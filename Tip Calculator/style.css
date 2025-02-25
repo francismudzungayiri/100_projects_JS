@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -11,11 +13,58 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Roboto Condensed", serif;
+    color: #27445D;
 }
 .wrapper{
     width: 50%;
     padding: 2%;
 }
 h1{
-    
+    text-align: center;
+    font-weight: 700;
+    font-size: 2em;
+}
+p{
+    margin: 1em 0;
+    font-size: 1.1em;
+    width: 100%;
+    text-align: center;
+}
+.input{
+    padding: 1em
+}
+input{
+    padding: .5em .9em;
+    background-color: transparent;
+    border:2px solid  #27445D;
+    font-size: 1.2em;
+    width: 60%;margin-left: 1em;
+}
+input:focus{
+    border: none;
+}
+button{
+    display: block;
+    font-size: 1.1em;
+    background-color: #497D74;
+    border: none;
+    width: 100%;
+    padding: .7em 0;
+    color: #F8FAE5;
+    border-radius: .4em;
+    margin: 1em 0;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #497D74;
+    color: #497D74;
+}
+span{
+    font-weight: 400;
+    margin-top: 1em;
+    font-size: 2.5em;
+}
+#total{
+    font-weight: 800;
 }

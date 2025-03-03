@@ -38,3 +38,15 @@ Temperature Converter Project
 
 This project aims to create a temperature converter. The final version of the project includes three inputs for Celsius, Fahrenheit, and Kelvin temperature formats. When you change any of these inputs, for example, if you choose 100 degrees Celsius, you will see the equivalent Celsius value in Fahrenheit and Kelvin formats. Additionally, if you change one input, you will see a real-time change inside the other inputs. For instance, changing the Fahrenheit input to 100 degrees will show you that it is equal to 37 degrees Celsius and 311 Kelvin. To create this project, we will learn how to use an "onchange" event listener to track changes inside the inputs. We will also use the switch statement to track changes based on the name of the input we are working on. Additionally, we will use CSS to give the project a modern look, inspired by newMorphISM design. In summary, this project will help us learn how to create a temperature converter using JavaScript and CSS, and we will learn how to track changes using event listeners and switch statements.
 
+Concepts learned 
+    input eventlistiner
+    change eventlistiner
+
+
+Project 005
+Dark Mode Toggle Project - HTML, CSS, JavaScript
+
+In this project, we'll create a toggle button that switches the website between dark and light modes, with a sliding animation for a more visually appealing transition. We'll use keyframe CSS queries to create the animation and JavaScript to change the background color dynamically. The user's preference will be stored using the browser's local storage, ensuring that their selection persists even if they refresh the page. This project will teach you advanced CSS techniques, JavaScript programming, and how to improve the user experience by storing data in the browser.
+
+Concepts learned
+    working wing with local storage

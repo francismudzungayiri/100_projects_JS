@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Tailwindcss</title>
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
+  <body class="w-full h-full overflow-hidden bg-[#FFF0DC] p-5">
+    <nav class="absolute top-10 right-10 group">
+      <span
+        class="h-2 bg-[#131010] w-16 block cursor-pointer group-hover:bg-[#A31D1D]"
+      ></span>
+      <span
+        class="h-2 mt-2 bg-[#131010] w-16 block cursor-pointer group-hover:bg-[#A31D1D]"
+      ></span>
+      <span
+        class="h-2 mt-2 bg-[#131010] w-16 block cursor-pointer group-hover:bg-[#A31D1D]"
+      ></span>
+    </nav>
+    <div
+      id="nav-links"
+      class="hidden w-1/3 h-full bg-[#E5D0AC] absolute top-0 left-0 py-16 px-5 animate__animated animate__fadeInLeft"
+    >
+      <h1 class="font-serif text-4xl text-[#A31D1D] font-light mb-7">
+        TechCatalyzer
+      </h1>
+      <div>
+        <a
+          href="#"
+          class="p-5 block text-2xl font-semibold hover:text-[#A31D1D]"
+          >Home</a
+        >
+        <a
+          href="#"
+          class="block p-5 text-2xl font-semibold hover:text-[#A31D1D]"
+          >About</a
+        >
+        <a
+          href="#"
+          class="p-5 block text-2xl font-semibold hover:text-[#A31D1D]"
+          >Contact us</a
+        >
+      </div>
+    </div>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>

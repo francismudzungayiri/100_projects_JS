@@ -160,3 +160,15 @@ console.log(typeof title);
 
 let [a, b, c] = genres;
 console.log(a, b, c);
+
+//OPTIONAL CHAINING
+
+function getTotalReviewCounts(book) {
+  const goodReads = book.reviews.goodreads.reviewsCount;
+  const librarything = book.reviews.librarything.reviewsCount;
+
+  const total = goodReads + librarything;
+  return total;
+}
+
+getTotalReviewCounts(getBook(2));
